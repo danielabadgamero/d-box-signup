@@ -12,6 +12,7 @@
         <div class="links">
             <a href="#">About</a>
             <a href="#">FAQ</a>
+            <a href="#">Terms Of Use</a>
             <a href="#">Home</a>
         </div>
     </header>
@@ -23,10 +24,17 @@
             </div>
             <div class="form">
                 <form>
-                    <label for="username">Username:</label>
-                    <input type="text" name="username" id="username">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" minlength="3" maxlength="16">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" minlength="8">
                 </form>
             </div>
+        </div>
+        <div class="separation">
+            <hr>
+            <h1>OR</h1>
+            <hr>
         </div>
         <div class="card">
             <div class="title">
@@ -35,6 +43,14 @@
             </div>
             <div class="form">
                 <form>
+                    <label for="username-reg">Username</label>
+                    <input type="text" name="username-reg" id="username-reg" minlength="3" maxlength="16">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="password-reg">Password</label>
+                    <input type="password" name="password-reg" id="password-reg" minlength="8">
+                    <label for="password">Repeat Password</label>
+                    <input type="password-rep" name="password-rep" id="password-rep" minlength="8">
                 </form>
             </div>
         </div>
